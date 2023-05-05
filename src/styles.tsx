@@ -9,7 +9,7 @@ export const Wrapper = styled.div(
 );
 
 export const ChractersContainer = styled.div`
-  min-height: 300px;
+  min-height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
