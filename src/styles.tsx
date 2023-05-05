@@ -16,6 +16,7 @@ export const ChractersContainer = styled.div`
   justify-content: center;
   padding: 1.5rem 1rem;
   ul {
+    max-width: 300px;
     margin: 1rem;
     padding: 0;
     list-style: none;
@@ -25,8 +26,9 @@ export const ChractersContainer = styled.div`
 export const ImageWrapper = styled.div(
   ({ imageUrl }: { imageUrl: string }) => `
     background-image: url("${imageUrl}");
-    height: 245px;
+    height: 250px;
     border-radius: 4px;
     margin-bottom: 1rem;
+    background-size: cover;
 `
 );
