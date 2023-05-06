@@ -6,8 +6,6 @@ name: Deploy To EC2
 on:
   push:
     branches: ["master"]
-  pull_request:
-    branches: ["master"]
 
 jobs:
   build:
