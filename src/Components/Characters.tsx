@@ -7,7 +7,7 @@ import CharacterInfo from "./CharacterInfo";
 const Characters = (): JSX.Element => {
   const { data: characterList, isLoading } = useQuery(
     "characters",
-    fetchCharacters,
+    () => fetchCharacters({ page: 0 }),
     {
       staleTime: Infinity,
     }
