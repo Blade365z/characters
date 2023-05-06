@@ -16,7 +16,7 @@ export const ChractersContainer = styled.div`
   justify-content: center;
   padding: 1.5rem 1rem;
   ul {
-    max-width: 300px;
+    max-width: 330px;
     margin: 1rem;
     padding: 0;
     list-style: none;
