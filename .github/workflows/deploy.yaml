@@ -26,7 +26,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - name: Install npm dependencies
-        run: npm ci
+        run: npm install --legacy-peer-deps
       - name: Run build task
         run: npm run build --if-present
       - name: Deploy to Server
@@ -36,5 +36,5 @@ jobs:
           REMOTE_HOST: ${{ secrets.DEPLOY_HOST }}
           REMOTE_USER: ${{ secrets.DEPLOY_USERNAME }}
           REMOTE_PORT: ${{ secrets.DEPLOY_PORT }}
-          SOURCE: "build/"
+          SOURCE: "dist/"
           TARGET: ${{ secrets.DEPLOY_TARGET }}
