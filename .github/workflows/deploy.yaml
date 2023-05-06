@@ -40,4 +40,4 @@ jobs:
           TARGET: ${{ secrets.DEPLOY_TARGET }}
           SCRIPT_AFTER: |
             sudo rm -rf /var/www/html/*
-            sudo cp -r /home/ubuntu/characters /var/www/html/
+            sudo cp -r /home/ubuntu/characters/* /var/www/html/
