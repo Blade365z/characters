@@ -38,3 +38,6 @@ jobs:
           REMOTE_PORT: ${{ secrets.DEPLOY_PORT }}
           SOURCE: "dist/"
           TARGET: ${{ secrets.DEPLOY_TARGET }}
+          SCRIPT_AFTER: |
+            sudo rm -rf /var/www/html/*
+            sudo cp -r /home/ubuntu/characters /var/www/html/
