@@ -1,7 +1,11 @@
 import axios from "axios";
 import { Character } from "./types";
 
-export const fetchCharacters = async ({ page = 0 }): Promise<Character[]> => {
+export const fetchCharacters = async ({
+  page = 0,
+}: {
+  page: number;
+}): Promise<Character[]> => {
   const response = await axios.get(
     `https://rickandmortyapi.com/api/character/?page=${page}`
   );
