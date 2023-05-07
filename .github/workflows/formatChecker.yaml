@@ -21,5 +21,5 @@ jobs:
         run: npm run lint
         continue-on-error: true
       - name: Print success message
-        if: steps.lint_check.outputs=='success'
+        if: success()
         run: echo "Linter checks passed!!"
