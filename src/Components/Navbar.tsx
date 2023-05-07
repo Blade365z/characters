@@ -1,5 +1,5 @@
 import { Box } from "@razorpay/blade/components";
-import logo from "../assets/logo.png";
+import logo from "assets/logo.png";
 
 const Navbar = (): JSX.Element => {
   return (

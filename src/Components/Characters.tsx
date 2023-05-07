@@ -1,8 +1,8 @@
 import { useQuery } from "react-query";
 import { fetchCharacters } from "../services";
 import { Spinner } from "@razorpay/blade/components";
-import { ChractersContainer } from "../styles";
-import CharacterInfo from "./CharacterInfo";
+import { ChractersContainer } from "styles";
+import CharacterInfo from "Components/CharacterInfo";
 
 const Characters = (): JSX.Element => {
   const { data: characterList, isLoading } = useQuery(

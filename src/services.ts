@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Character } from "./types";
+import { Character } from "types";
 
 export const fetchCharacters = async ({
   page = 0,
