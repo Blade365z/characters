@@ -25,7 +25,7 @@ module.exports = {
         'no-console': 1,
         'react/button-has-type': 1,
         "no-relative-import-paths/no-relative-import-paths": [
-            "warn",
+            "error",
             { "allowSameFolder": true }
         ]
     }

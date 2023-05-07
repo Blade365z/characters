@@ -1,4 +1,4 @@
-import Characters from "./Components/Characters";
+import Characters from "../src/Components/Characters";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { BladeProvider } from "@razorpay/blade/components";
 import { paymentTheme } from "@razorpay/blade/tokens";
