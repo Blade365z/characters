@@ -1,9 +1,9 @@
-import Characters from "./Components/Characters";
+import Characters from "Components/Characters";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { BladeProvider } from "@razorpay/blade/components";
 import { paymentTheme } from "@razorpay/blade/tokens";
 import { Wrapper } from "./styles";
-import Navbar from "./Components/Navbar";
+import Navbar from "Components/Navbar";
 
 const queryClient = new QueryClient();
 

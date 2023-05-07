@@ -1,5 +1,5 @@
-import { Character } from "../types";
-import { ImageWrapper } from "../styles";
+import { Character } from "types";
+import { ImageWrapper } from "styles";
 import {
   Card,
   CardBody,
