@@ -22,6 +22,7 @@ const Characters = (): JSX.Element => {
           {characterList?.map((character) => (
             <CharacterInfo key={character.name} character={character} />
           ))}
+          <button>sdsd</button>
         </ul>
       )}
     </ChractersContainer>
