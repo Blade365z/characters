@@ -1,5 +1,5 @@
 import { useQuery } from "react-query";
-import { fetchCharacters } from "../services";
+import { fetchCharacters } from "services";
 import { Spinner } from "@razorpay/blade/components";
 import { ChractersContainer } from "styles";
 import CharacterInfo from "Components/CharacterInfo";
