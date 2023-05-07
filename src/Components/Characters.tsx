@@ -22,7 +22,6 @@ const Characters = (): JSX.Element => {
           {characterList?.map((character) => (
             <CharacterInfo key={character.name} character={character} />
           ))}
-          <button>Some Random Button</button>
         </ul>
       )}
     </ChractersContainer>
