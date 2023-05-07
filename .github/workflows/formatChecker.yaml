@@ -22,3 +22,5 @@ jobs:
       - name: Print success message
         if: success()
         run: echo "Linter checks passed!!"
+      - name: Annotate Code Linting Results
+        uses: ataylorme/eslint-annotate-action@v2
