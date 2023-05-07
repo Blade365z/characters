@@ -20,7 +20,7 @@ const Characters = (): JSX.Element => {
       ) : (
         <ul>
           {characterList?.map((character) => (
-            <CharacterInfo character={character} />
+            <CharacterInfo key={character.name} character={character} />
           ))}
         </ul>
       )}
